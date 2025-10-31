@@ -9,7 +9,5 @@
  public void occupy() { occupied = true; }
  public void free() { occupied = false; }
  public String getId() { return id; }
- @Override public String toString(){ return getClass().getSimpleName() +
- 2
-"["+id+"]"; }
+ @Override public String toString(){ return getClass().getSimpleName() + "["+id+"]"; }
  }
